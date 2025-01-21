@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Set permissions
           command: |
-            chmod +x soul
+            chmod +x axom
             chmod +x *
       - run:
           name: Run the Python script
